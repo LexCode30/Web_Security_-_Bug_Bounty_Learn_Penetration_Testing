@@ -1,0 +1,758 @@
+{
+  "name": "Web Security & Bug Bounty Learn Penetration Testing",
+  "slug": "Web_Security_-_Bug_Bounty_Learn_Penetration_Testing",
+  "url": "https://LexCode30.github.io/Web_Security_-_Bug_Bounty_Learn_Penetration_Testing/",
+  "category": "cybersecurity",
+  "generator": "7.0",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction To Bug Bounty",
+      "page": "s1.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Course Outline",
+          "id": "1Cg35sjE0uJZw92Od8125aFhhM2VS12be",
+          "anchor": "v-1Cg35sjE0uJZw92Od8125aFhhM2VS12be",
+          "href": "s1.html#v-1Cg35sjE0uJZw92Od8125aFhhM2VS12be"
+        },
+        {
+          "number": 2,
+          "title": "Join Our Online Classroom",
+          "id": "1E2fAZtaeQKLkzDdPeXbOh6mP2JQrWcm2",
+          "anchor": "v-1E2fAZtaeQKLkzDdPeXbOh6mP2JQrWcm2",
+          "href": "s1.html#v-1E2fAZtaeQKLkzDdPeXbOh6mP2JQrWcm2"
+        },
+        {
+          "number": 3,
+          "title": "What is Penetration Testing",
+          "id": "1EAR2veCJuUbiLk6_kS5SuPyrt3-6_2kG",
+          "anchor": "v-1EAR2veCJuUbiLk6_kS5SuPyrt3-6_2kG",
+          "href": "s1.html#v-1EAR2veCJuUbiLk6_kS5SuPyrt3-6_2kG"
+        },
+        {
+          "number": 4,
+          "title": "What is Bug Bounty",
+          "id": "1Co6dr59siGZIFkW_qqZd4j9TO3IkL6fn",
+          "anchor": "v-1Co6dr59siGZIFkW_qqZd4j9TO3IkL6fn",
+          "href": "s1.html#v-1Co6dr59siGZIFkW_qqZd4j9TO3IkL6fn"
+        },
+        {
+          "number": 5,
+          "title": "ZTM Resources",
+          "id": "1EIqDe3YCAKEw5nRGLysi5WZ05ir1N1d0",
+          "anchor": "v-1EIqDe3YCAKEw5nRGLysi5WZ05ir1N1d0",
+          "href": "s1.html#v-1EIqDe3YCAKEw5nRGLysi5WZ05ir1N1d0"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Our Virtual Lab Setup",
+      "page": "s2.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Virtual Box Kali Linux Download",
+          "id": "1JC3xFTzS1MyWpKQ2mFdD1eF3KQnQzTsr",
+          "anchor": "v-1JC3xFTzS1MyWpKQ2mFdD1eF3KQnQzTsr",
+          "href": "s2.html#v-1JC3xFTzS1MyWpKQ2mFdD1eF3KQnQzTsr"
+        },
+        {
+          "number": 2,
+          "title": "Important - New Kali Linux Categories",
+          "id": "1I-oko4-2p4rUzMz0_nR558GSD814xX84",
+          "anchor": "v-1I-oko4-2p4rUzMz0_nR558GSD814xX84",
+          "href": "s2.html#v-1I-oko4-2p4rUzMz0_nR558GSD814xX84"
+        },
+        {
+          "number": 3,
+          "title": "Kali Linux Installation",
+          "id": "1J3v_1YW_mgl9dhHtzdDguKcdSYQji8GT",
+          "anchor": "v-1J3v_1YW_mgl9dhHtzdDguKcdSYQji8GT",
+          "href": "s2.html#v-1J3v_1YW_mgl9dhHtzdDguKcdSYQji8GT"
+        },
+        {
+          "number": 4,
+          "title": "OWASPBWA Installation",
+          "id": "1J0lNHnz5rM66EZIM8pp6nCXcJU6F_HZ8",
+          "anchor": "v-1J0lNHnz5rM66EZIM8pp6nCXcJU6F_HZ8",
+          "href": "s2.html#v-1J0lNHnz5rM66EZIM8pp6nCXcJU6F_HZ8"
+        },
+        {
+          "number": 5,
+          "title": "Creating TryHackMe Account",
+          "id": "1Hk7ANmCFPthQ7-E8kxxtIdJIUA5XrtIc",
+          "anchor": "v-1Hk7ANmCFPthQ7-E8kxxtIdJIUA5XrtIc",
+          "href": "s2.html#v-1Hk7ANmCFPthQ7-E8kxxtIdJIUA5XrtIc"
+        },
+        {
+          "number": 6,
+          "title": "2 Paths",
+          "id": "1J2PsThMViSQxwv9cJDka4GOt15JBgndI",
+          "anchor": "v-1J2PsThMViSQxwv9cJDka4GOt15JBgndI",
+          "href": "s2.html#v-1J2PsThMViSQxwv9cJDka4GOt15JBgndI"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Website Enumeration & Information Gathering",
+      "page": "s3.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Website Enumeration - Theory",
+          "id": "1JO-5DUyNYl3dZMRZjHjFCWw4VlksN8aM",
+          "anchor": "v-1JO-5DUyNYl3dZMRZjHjFCWw4VlksN8aM",
+          "href": "s3.html#v-1JO-5DUyNYl3dZMRZjHjFCWw4VlksN8aM"
+        },
+        {
+          "number": 2,
+          "title": "Google Dorks",
+          "id": "1KbmGWkWD_T4gF_KZLD1TryIrGp4oUi-U",
+          "anchor": "v-1KbmGWkWD_T4gF_KZLD1TryIrGp4oUi-U",
+          "href": "s3.html#v-1KbmGWkWD_T4gF_KZLD1TryIrGp4oUi-U"
+        },
+        {
+          "number": 3,
+          "title": "Ping Host Nslookup",
+          "id": "1K8yJUAqZii0bvUrHg3lGdEfAxnIyVRXU",
+          "anchor": "v-1K8yJUAqZii0bvUrHg3lGdEfAxnIyVRXU",
+          "href": "s3.html#v-1K8yJUAqZii0bvUrHg3lGdEfAxnIyVRXU"
+        },
+        {
+          "number": 4,
+          "title": "Whatweb",
+          "id": "1JUndnDxTd2zlft11YdQZ85uK3J-Ia3uq",
+          "anchor": "v-1JUndnDxTd2zlft11YdQZ85uK3J-Ia3uq",
+          "href": "s3.html#v-1JUndnDxTd2zlft11YdQZ85uK3J-Ia3uq"
+        },
+        {
+          "number": 5,
+          "title": "Dirb",
+          "id": "1JcW7WELE2TkNJ62_R0FS-b8HYc9tXPW1",
+          "anchor": "v-1JcW7WELE2TkNJ62_R0FS-b8HYc9tXPW1",
+          "href": "s3.html#v-1JcW7WELE2TkNJ62_R0FS-b8HYc9tXPW1"
+        },
+        {
+          "number": 6,
+          "title": "Nmap",
+          "id": "1KTfPGHMctOy5Vkc3SFTU7era1x2ld2K1",
+          "anchor": "v-1KTfPGHMctOy5Vkc3SFTU7era1x2ld2K1",
+          "href": "s3.html#v-1KTfPGHMctOy5Vkc3SFTU7era1x2ld2K1"
+        },
+        {
+          "number": 7,
+          "title": "Nikto",
+          "id": "1JPF0sNcP5wPp9u75b8-NUnuAr5Lz91I-",
+          "anchor": "v-1JPF0sNcP5wPp9u75b8-NUnuAr5Lz91I-",
+          "href": "s3.html#v-1JPF0sNcP5wPp9u75b8-NUnuAr5Lz91I-"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Introduction To Burpsuite",
+      "page": "s4.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Burpsuite Configuration",
+          "id": "12XQT-vTnQ_31r5uDwiX3uziVKBfUb-Y1",
+          "anchor": "v-12XQT-vTnQ_31r5uDwiX3uziVKBfUb-Y1",
+          "href": "s4.html#v-12XQT-vTnQ_31r5uDwiX3uziVKBfUb-Y1"
+        },
+        {
+          "number": 2,
+          "title": "Burpsuite Intercept",
+          "id": "11eUcaPoFpMIopx0p91DAVkPQMyAIlISk",
+          "anchor": "v-11eUcaPoFpMIopx0p91DAVkPQMyAIlISk",
+          "href": "s4.html#v-11eUcaPoFpMIopx0p91DAVkPQMyAIlISk"
+        },
+        {
+          "number": 3,
+          "title": "Burpsuite Repeater",
+          "id": "11hJYFVFolPFpIbyIpNVtkcyUhUESJ0r7",
+          "anchor": "v-11hJYFVFolPFpIbyIpNVtkcyUhUESJ0r7",
+          "href": "s4.html#v-11hJYFVFolPFpIbyIpNVtkcyUhUESJ0r7"
+        },
+        {
+          "number": 4,
+          "title": "Burpsuite Intruder",
+          "id": "13Aj_2AvvhfAN1n0k482AByuIL_hDI5o3",
+          "anchor": "v-13Aj_2AvvhfAN1n0k482AByuIL_hDI5o3",
+          "href": "s4.html#v-13Aj_2AvvhfAN1n0k482AByuIL_hDI5o3"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "HTML Injection",
+      "page": "s5.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "HTML Injection - Theory",
+          "id": "10De0UMl5rUMSGPJH-nI0nfQ_wUg3nlr2",
+          "anchor": "v-10De0UMl5rUMSGPJH-nI0nfQ_wUg3nlr2",
+          "href": "s5.html#v-10De0UMl5rUMSGPJH-nI0nfQ_wUg3nlr2"
+        },
+        {
+          "number": 2,
+          "title": "HTML Injection 1 on TryHackMe",
+          "id": "102iGmksau1vVy7TOm_QVJi4jyFDIkBCS",
+          "anchor": "v-102iGmksau1vVy7TOm_QVJi4jyFDIkBCS",
+          "href": "s5.html#v-102iGmksau1vVy7TOm_QVJi4jyFDIkBCS"
+        },
+        {
+          "number": 3,
+          "title": "HTML Injection 2 - Injecting User-Agent Header",
+          "id": "105b7XA6MLNxRHMThTdLNsr9EJdeKb8t0",
+          "anchor": "v-105b7XA6MLNxRHMThTdLNsr9EJdeKb8t0",
+          "href": "s5.html#v-105b7XA6MLNxRHMThTdLNsr9EJdeKb8t0"
+        },
+        {
+          "number": 4,
+          "title": "Injecting Cookie Field and Redirecting The Page",
+          "id": "1-NoIddC1c9CZwfXNXoTEExKefBJ9bMbt",
+          "anchor": "v-1-NoIddC1c9CZwfXNXoTEExKefBJ9bMbt",
+          "href": "s5.html#v-1-NoIddC1c9CZwfXNXoTEExKefBJ9bMbt"
+        },
+        {
+          "number": 5,
+          "title": "Advance Example of HTML Injection",
+          "id": "108ZhvMEYpJNyzvoqMXVaUcqfFxJY4Z2j",
+          "anchor": "v-108ZhvMEYpJNyzvoqMXVaUcqfFxJY4Z2j",
+          "href": "s5.html#v-108ZhvMEYpJNyzvoqMXVaUcqfFxJY4Z2j"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Command InjectionExecution",
+      "page": "s6.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Command Injection Theory",
+          "id": "14Nlzk-BVzzdLBzBrFPKrTL2uONK8DaHY",
+          "anchor": "v-14Nlzk-BVzzdLBzBrFPKrTL2uONK8DaHY",
+          "href": "s6.html#v-14Nlzk-BVzzdLBzBrFPKrTL2uONK8DaHY"
+        },
+        {
+          "number": 2,
+          "title": "Command Injection On TryHackMe and Blind Command Injection",
+          "id": "14WMvO2HFbEwgmuA-74cTfYhBrLGoum-i",
+          "anchor": "v-14WMvO2HFbEwgmuA-74cTfYhBrLGoum-i",
+          "href": "s6.html#v-14WMvO2HFbEwgmuA-74cTfYhBrLGoum-i"
+        },
+        {
+          "number": 3,
+          "title": "Solving Challenges With Command Injection",
+          "id": "174uf5Ut3fvJy7ODdJ_8u8gnFKkTDxgOD",
+          "anchor": "v-174uf5Ut3fvJy7ODdJ_8u8gnFKkTDxgOD",
+          "href": "s6.html#v-174uf5Ut3fvJy7ODdJ_8u8gnFKkTDxgOD"
+        },
+        {
+          "number": 4,
+          "title": "Running PHP Reverse Shell With Command Execution Vulnerability",
+          "id": "16KSlsmHMFi_ScCMLb2SjdsgjVVaRNAV5",
+          "anchor": "v-16KSlsmHMFi_ScCMLb2SjdsgjVVaRNAV5",
+          "href": "s6.html#v-16KSlsmHMFi_ScCMLb2SjdsgjVVaRNAV5"
+        },
+        {
+          "number": 5,
+          "title": "Bypassing Input Filter And Executing Command",
+          "id": "1779dablvM0VWDXy1Jn_oAGkeIPpfbD4P",
+          "anchor": "v-1779dablvM0VWDXy1Jn_oAGkeIPpfbD4P",
+          "href": "s6.html#v-1779dablvM0VWDXy1Jn_oAGkeIPpfbD4P"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Broken Authentication",
+      "page": "s7.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Broken Authentication Theory",
+          "id": "1GIFsLd8JCNuwGyDmtJvm7k-x3h0vrfFw",
+          "anchor": "v-1GIFsLd8JCNuwGyDmtJvm7k-x3h0vrfFw",
+          "href": "s7.html#v-1GIFsLd8JCNuwGyDmtJvm7k-x3h0vrfFw"
+        },
+        {
+          "number": 2,
+          "title": "Broken Authentication On TryHackMe",
+          "id": "1GU-zp1jx2a0Vk8mQZJubKuK7wkw_DI4K",
+          "anchor": "v-1GU-zp1jx2a0Vk8mQZJubKuK7wkw_DI4K",
+          "href": "s7.html#v-1GU-zp1jx2a0Vk8mQZJubKuK7wkw_DI4K"
+        },
+        {
+          "number": 3,
+          "title": "Broken Authentication Via Cookie",
+          "id": "1FMI_qXiozoz--aU_nb8I5ArqZwI7Mw9m",
+          "anchor": "v-1FMI_qXiozoz--aU_nb8I5ArqZwI7Mw9m",
+          "href": "s7.html#v-1FMI_qXiozoz--aU_nb8I5ArqZwI7Mw9m"
+        },
+        {
+          "number": 4,
+          "title": "Basic Authorization in HTTP Request",
+          "id": "1GN2WQDAfaFSnwFUo5tmUJxnRFAVdbx1d",
+          "anchor": "v-1GN2WQDAfaFSnwFUo5tmUJxnRFAVdbx1d",
+          "href": "s7.html#v-1GN2WQDAfaFSnwFUo5tmUJxnRFAVdbx1d"
+        },
+        {
+          "number": 5,
+          "title": "Forgot Password Challenge",
+          "id": "1GcDfkq_Me0HQOaaFwQAecQ4CxLBcwnfn",
+          "anchor": "v-1GcDfkq_Me0HQOaaFwQAecQ4CxLBcwnfn",
+          "href": "s7.html#v-1GcDfkq_Me0HQOaaFwQAecQ4CxLBcwnfn"
+        },
+        {
+          "number": 6,
+          "title": "Session Fixation Challenge",
+          "id": "1GLK3roSkmJcJiDJDW7hS8u4cR5RXJgce",
+          "anchor": "v-1GLK3roSkmJcJiDJDW7hS8u4cR5RXJgce",
+          "href": "s7.html#v-1GLK3roSkmJcJiDJDW7hS8u4cR5RXJgce"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Bruteforce Attacks",
+      "page": "s8.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Cluster Bomb Bruteforce",
+          "id": "17GYFi7zSpEYC0F_-NnvxE8xuKybHZvZm",
+          "anchor": "v-17GYFi7zSpEYC0F_-NnvxE8xuKybHZvZm",
+          "href": "s8.html#v-17GYFi7zSpEYC0F_-NnvxE8xuKybHZvZm"
+        },
+        {
+          "number": 2,
+          "title": "Hydra Bwapp Form Bruteforce",
+          "id": "17srvrNrE25E9PxskQ7Q-CZhag0BDAKtu",
+          "anchor": "v-17srvrNrE25E9PxskQ7Q-CZhag0BDAKtu",
+          "href": "s8.html#v-17srvrNrE25E9PxskQ7Q-CZhag0BDAKtu"
+        },
+        {
+          "number": 3,
+          "title": "Hydra Post Request Form Bruteforce",
+          "id": "17rag30khU3XmLbDADYl6vUPLzLtgHHgA",
+          "anchor": "v-17rag30khU3XmLbDADYl6vUPLzLtgHHgA",
+          "href": "s8.html#v-17rag30khU3XmLbDADYl6vUPLzLtgHHgA"
+        },
+        {
+          "number": 4,
+          "title": "Extra - Hydra SSH Attack",
+          "id": "17tbt-rWgogAyM7EhUChzMGJbgTo7lwzm",
+          "anchor": "v-17tbt-rWgogAyM7EhUChzMGJbgTo7lwzm",
+          "href": "s8.html#v-17tbt-rWgogAyM7EhUChzMGJbgTo7lwzm"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Sensitive Data Exposure",
+      "page": "s9.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Sensitive Data Exposure Example",
+          "id": "13MfK6oNtdXMP6P1vH9ugEQrir-cKRUaH",
+          "anchor": "v-13MfK6oNtdXMP6P1vH9ugEQrir-cKRUaH",
+          "href": "s9.html#v-13MfK6oNtdXMP6P1vH9ugEQrir-cKRUaH"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Broken Access Control",
+      "page": "s10.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Broken Access Control - Theory",
+          "id": "1FCH37KhrT_zUsLP1pJkj_xqnhMtZZpYe",
+          "anchor": "v-1FCH37KhrT_zUsLP1pJkj_xqnhMtZZpYe",
+          "href": "s10.html#v-1FCH37KhrT_zUsLP1pJkj_xqnhMtZZpYe"
+        },
+        {
+          "number": 2,
+          "title": "Accessing passwd With BAC",
+          "id": "1FK8RBJu1tlfWGh_AmYh7aDNkr-V0FHsf",
+          "anchor": "v-1FK8RBJu1tlfWGh_AmYh7aDNkr-V0FHsf",
+          "href": "s10.html#v-1FK8RBJu1tlfWGh_AmYh7aDNkr-V0FHsf"
+        },
+        {
+          "number": 3,
+          "title": "Ticket Price IDOR",
+          "id": "1EW__wMWkKlYhM7Kuca1uSnvUfnqgNv6m",
+          "anchor": "v-1EW__wMWkKlYhM7Kuca1uSnvUfnqgNv6m",
+          "href": "s10.html#v-1EW__wMWkKlYhM7Kuca1uSnvUfnqgNv6m"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Security Misconfiguration",
+      "page": "s11.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Security Misconfiguration - Default App Credentials",
+          "id": "18HOz5FGlzXk_j64qaQov_oxTmcUptJnE",
+          "anchor": "v-18HOz5FGlzXk_j64qaQov_oxTmcUptJnE",
+          "href": "s11.html#v-18HOz5FGlzXk_j64qaQov_oxTmcUptJnE"
+        },
+        {
+          "number": 2,
+          "title": "Exercise Imposter Syndrome",
+          "id": "17wqtHKVOImppQCiCF1CyCEWqn_cRvkmE",
+          "anchor": "v-17wqtHKVOImppQCiCF1CyCEWqn_cRvkmE",
+          "href": "s11.html#v-17wqtHKVOImppQCiCF1CyCEWqn_cRvkmE"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Cross Site Scripting - XSS",
+      "page": "s12.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "XSS Theory",
+          "id": "14sRXv8R9gRYG3juYjMmN2TpfImB59E-X",
+          "anchor": "v-14sRXv8R9gRYG3juYjMmN2TpfImB59E-X",
+          "href": "s12.html#v-14sRXv8R9gRYG3juYjMmN2TpfImB59E-X"
+        },
+        {
+          "number": 2,
+          "title": "Changing Page Content With XSS",
+          "id": "16CxxO4we4GZ69Roy9etyZyHsTBqFk8XM",
+          "anchor": "v-16CxxO4we4GZ69Roy9etyZyHsTBqFk8XM",
+          "href": "s12.html#v-16CxxO4we4GZ69Roy9etyZyHsTBqFk8XM"
+        },
+        {
+          "number": 3,
+          "title": "Bypassing Simple Filter",
+          "id": "14x4wexa3UzzVuQna8BXCSihAGFmhCz2e",
+          "anchor": "v-14x4wexa3UzzVuQna8BXCSihAGFmhCz2e",
+          "href": "s12.html#v-14x4wexa3UzzVuQna8BXCSihAGFmhCz2e"
+        },
+        {
+          "number": 4,
+          "title": "Downloading a File With XSS Vulnerability",
+          "id": "16FLXm8zy8qbxTZxA-SRJVwKcn-Fpv7nl",
+          "anchor": "v-16FLXm8zy8qbxTZxA-SRJVwKcn-Fpv7nl",
+          "href": "s12.html#v-16FLXm8zy8qbxTZxA-SRJVwKcn-Fpv7nl"
+        },
+        {
+          "number": 5,
+          "title": "DOM XSS Password Generator",
+          "id": "16B9HNiEzN3HcGQvZp5SgF2Ku04bvBHrp",
+          "anchor": "v-16B9HNiEzN3HcGQvZp5SgF2Ku04bvBHrp",
+          "href": "s12.html#v-16B9HNiEzN3HcGQvZp5SgF2Ku04bvBHrp"
+        },
+        {
+          "number": 6,
+          "title": "JSON XSS",
+          "id": "14zJ7tb_XkNiATRK0juAY3icyfEbgBGc2",
+          "anchor": "v-14zJ7tb_XkNiATRK0juAY3icyfEbgBGc2",
+          "href": "s12.html#v-14zJ7tb_XkNiATRK0juAY3icyfEbgBGc2"
+        },
+        {
+          "number": 7,
+          "title": "Old Vulnerable Real Applications",
+          "id": "16A42huf2oJehAC1HQsLnQ1o49IccfJOS",
+          "anchor": "v-16A42huf2oJehAC1HQsLnQ1o49IccfJOS",
+          "href": "s12.html#v-16A42huf2oJehAC1HQsLnQ1o49IccfJOS"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "SQL Injection",
+      "page": "s13.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "SQL Injection Theory",
+          "id": "1HY-EH97A0Lyhd1TYJbeBYZYlQg4fa2e_",
+          "anchor": "v-1HY-EH97A0Lyhd1TYJbeBYZYlQg4fa2e_",
+          "href": "s13.html#v-1HY-EH97A0Lyhd1TYJbeBYZYlQg4fa2e_"
+        },
+        {
+          "number": 2,
+          "title": "Guide To Exploiting SQL Injection",
+          "id": "1Hc0tB7H6NyW3cZ7Y9qlX0hGhClY8UHPk",
+          "anchor": "v-1Hc0tB7H6NyW3cZ7Y9qlX0hGhClY8UHPk",
+          "href": "s13.html#v-1Hc0tB7H6NyW3cZ7Y9qlX0hGhClY8UHPk"
+        },
+        {
+          "number": 3,
+          "title": "Getting Entire Database",
+          "id": "1H_SDtDo_Kd5yNYFsXnQ2fG55Z0QZaJhp",
+          "anchor": "v-1H_SDtDo_Kd5yNYFsXnQ2fG55Z0QZaJhp",
+          "href": "s13.html#v-1H_SDtDo_Kd5yNYFsXnQ2fG55Z0QZaJhp"
+        },
+        {
+          "number": 4,
+          "title": "Extracting Passwords From Database",
+          "id": "1HaT6CQtfyIG4l7Z-fqLY4vgsuihYO8WW",
+          "anchor": "v-1HaT6CQtfyIG4l7Z-fqLY4vgsuihYO8WW",
+          "href": "s13.html#v-1HaT6CQtfyIG4l7Z-fqLY4vgsuihYO8WW"
+        },
+        {
+          "number": 5,
+          "title": "Bypassing Filter In SQL Query",
+          "id": "1H_6Acl79ILSeicAXVYauBQfHHMrVatNS",
+          "anchor": "v-1H_6Acl79ILSeicAXVYauBQfHHMrVatNS",
+          "href": "s13.html#v-1H_6Acl79ILSeicAXVYauBQfHHMrVatNS"
+        },
+        {
+          "number": 6,
+          "title": "Blind SQL Injection",
+          "id": "1HZ6j5gCAD9mcHPkLJg9DU72szS6YbAx6",
+          "anchor": "v-1HZ6j5gCAD9mcHPkLJg9DU72szS6YbAx6",
+          "href": "s13.html#v-1HZ6j5gCAD9mcHPkLJg9DU72szS6YbAx6"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "XML XPath Injection XXE",
+      "page": "s14.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "XPath Injection",
+          "id": "1477IqBV3LGFnq-yQWzypUVBvO2SVGeM0",
+          "anchor": "v-1477IqBV3LGFnq-yQWzypUVBvO2SVGeM0",
+          "href": "s14.html#v-1477IqBV3LGFnq-yQWzypUVBvO2SVGeM0"
+        },
+        {
+          "number": 2,
+          "title": "XPath Injection 2",
+          "id": "1468NZ8hGjwMNHPDP2pQ9xAfFDT0cKGni",
+          "anchor": "v-1468NZ8hGjwMNHPDP2pQ9xAfFDT0cKGni",
+          "href": "s14.html#v-1468NZ8hGjwMNHPDP2pQ9xAfFDT0cKGni"
+        },
+        {
+          "number": 3,
+          "title": "XXE",
+          "id": "14Ggp8TFz_CEZOH0wTehBXFhYanibtOXb",
+          "anchor": "v-14Ggp8TFz_CEZOH0wTehBXFhYanibtOXb",
+          "href": "s14.html#v-14Ggp8TFz_CEZOH0wTehBXFhYanibtOXb"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Components With Known Vulnerabilities",
+      "page": "s15.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Components With Known Vulnerabilities Example",
+          "id": "1E0ssjzbPSq_oucrtQmgym8k2u71cAAd-",
+          "anchor": "v-1E0ssjzbPSq_oucrtQmgym8k2u71cAAd-",
+          "href": "s15.html#v-1E0ssjzbPSq_oucrtQmgym8k2u71cAAd-"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Insufficient Logging And Monitoring",
+      "page": "s16.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Insufficient Logging And Monitoring Example",
+          "id": "19NVYhT9Nq9jfUrTWVMfvdKhK6YusRPJS",
+          "anchor": "v-19NVYhT9Nq9jfUrTWVMfvdKhK6YusRPJS",
+          "href": "s16.html#v-19NVYhT9Nq9jfUrTWVMfvdKhK6YusRPJS"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Monetizing Bug Hunting",
+      "page": "s17.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Whats Next & How To Earn Money By Finding Vulnerabilities",
+          "id": "1ERYhAUhipBGmFfN4xR1pYbE0GMGzlhYv",
+          "anchor": "v-1ERYhAUhipBGmFfN4xR1pYbE0GMGzlhYv",
+          "href": "s17.html#v-1ERYhAUhipBGmFfN4xR1pYbE0GMGzlhYv"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Extra - Web Developer Fundamentals",
+      "page": "s18.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Browsing the Web",
+          "id": "19_8QBbGm9p12JiGk1eaysgJY5AoEe-wK",
+          "anchor": "v-19_8QBbGm9p12JiGk1eaysgJY5AoEe-wK",
+          "href": "s18.html#v-19_8QBbGm9p12JiGk1eaysgJY5AoEe-wK"
+        },
+        {
+          "number": 2,
+          "title": "Breaking Google",
+          "id": "1BcyEQw1townKDDsM97nFqdSybHfFnfuK",
+          "anchor": "v-1BcyEQw1townKDDsM97nFqdSybHfFnfuK",
+          "href": "s18.html#v-1BcyEQw1townKDDsM97nFqdSybHfFnfuK"
+        },
+        {
+          "number": 3,
+          "title": "The Internet Backbone",
+          "id": "19P7v50tGjkd1XC4xF_CslgN4cnf7XPga",
+          "anchor": "v-19P7v50tGjkd1XC4xF_CslgN4cnf7XPga",
+          "href": "s18.html#v-19P7v50tGjkd1XC4xF_CslgN4cnf7XPga"
+        },
+        {
+          "number": 4,
+          "title": "Traceroute",
+          "id": "1ATJ-j03CNYbjC7rdBN_8kcZybC4iAqlE",
+          "anchor": "v-1ATJ-j03CNYbjC7rdBN_8kcZybC4iAqlE",
+          "href": "s18.html#v-1ATJ-j03CNYbjC7rdBN_8kcZybC4iAqlE"
+        },
+        {
+          "number": 5,
+          "title": "HTML CSS Javascript",
+          "id": "19aQMvzOqzpCI96qt_6DJuhOcfF8Enz_x",
+          "anchor": "v-19aQMvzOqzpCI96qt_6DJuhOcfF8Enz_x",
+          "href": "s18.html#v-19aQMvzOqzpCI96qt_6DJuhOcfF8Enz_x"
+        },
+        {
+          "number": 6,
+          "title": "Build Your First Website",
+          "id": "1BC5O6GNbuX9-Yd6si9DpAST-1H9flNWq",
+          "anchor": "v-1BC5O6GNbuX9-Yd6si9DpAST-1H9flNWq",
+          "href": "s18.html#v-1BC5O6GNbuX9-Yd6si9DpAST-1H9flNWq"
+        },
+        {
+          "number": 7,
+          "title": "HTML Tags",
+          "id": "1B1rf38zVk2FU29CcSnvjni7Zp1i_SIid",
+          "anchor": "v-1B1rf38zVk2FU29CcSnvjni7Zp1i_SIid",
+          "href": "s18.html#v-1B1rf38zVk2FU29CcSnvjni7Zp1i_SIid"
+        },
+        {
+          "number": 8,
+          "title": "Your First CSS",
+          "id": "1BZIWpphJKuOlwsDO_liYh4qX45lbeo50",
+          "anchor": "v-1BZIWpphJKuOlwsDO_liYh4qX45lbeo50",
+          "href": "s18.html#v-1BZIWpphJKuOlwsDO_liYh4qX45lbeo50"
+        },
+        {
+          "number": 9,
+          "title": "What Is Javascript",
+          "id": "1AX1nLFtgrve_gJs-TIsQ8Fns1S6xjnP2",
+          "anchor": "v-1AX1nLFtgrve_gJs-TIsQ8Fns1S6xjnP2",
+          "href": "s18.html#v-1AX1nLFtgrve_gJs-TIsQ8Fns1S6xjnP2"
+        },
+        {
+          "number": 10,
+          "title": "Your First Javascript",
+          "id": "1A2152kpfnc9cH2VkzlLhVU6vjK0RR1KH",
+          "anchor": "v-1A2152kpfnc9cH2VkzlLhVU6vjK0RR1KH",
+          "href": "s18.html#v-1A2152kpfnc9cH2VkzlLhVU6vjK0RR1KH"
+        },
+        {
+          "number": 11,
+          "title": "Javascript On Our Webpage",
+          "id": "19YP6jDokWCOkVOKjtvEpIgg3IvEklV0T",
+          "anchor": "v-19YP6jDokWCOkVOKjtvEpIgg3IvEklV0T",
+          "href": "s18.html#v-19YP6jDokWCOkVOKjtvEpIgg3IvEklV0T"
+        },
+        {
+          "number": 12,
+          "title": "HTTPHTTPS",
+          "id": "19mH417SSFdjJfOJqxaoiS_-MS24uVKKB",
+          "anchor": "v-19mH417SSFdjJfOJqxaoiS_-MS24uVKKB",
+          "href": "s18.html#v-19mH417SSFdjJfOJqxaoiS_-MS24uVKKB"
+        },
+        {
+          "number": 13,
+          "title": "Introduction To Databases",
+          "id": "19emDT6r5N5XdnAAP9z8BsMZ2W2d-PIoP",
+          "anchor": "v-19emDT6r5N5XdnAAP9z8BsMZ2W2d-PIoP",
+          "href": "s18.html#v-19emDT6r5N5XdnAAP9z8BsMZ2W2d-PIoP"
+        },
+        {
+          "number": 14,
+          "title": "SQL Create Table",
+          "id": "1AiwzXMXICE206QFojoAxkob5CkVOunIO",
+          "anchor": "v-1AiwzXMXICE206QFojoAxkob5CkVOunIO",
+          "href": "s18.html#v-1AiwzXMXICE206QFojoAxkob5CkVOunIO"
+        },
+        {
+          "number": 15,
+          "title": "SQL Insert Into + Select",
+          "id": "1BNdDXAYkzfVPbMWK1uZNdromVg7g7gQz",
+          "anchor": "v-1BNdDXAYkzfVPbMWK1uZNdromVg7g7gQz",
+          "href": "s18.html#v-1BNdDXAYkzfVPbMWK1uZNdromVg7g7gQz"
+        },
+        {
+          "number": 16,
+          "title": "What is PHP",
+          "id": "1A4QXefVvoqHnmYPvJLUMfUwR9VENIqXu",
+          "anchor": "v-1A4QXefVvoqHnmYPvJLUMfUwR9VENIqXu",
+          "href": "s18.html#v-1A4QXefVvoqHnmYPvJLUMfUwR9VENIqXu"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Extra - Linux Terminal",
+      "page": "s19.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Linux 1 - ls cd pwd touch",
+          "id": "1C_xP-UsrXQpaqRIpkJ-VhVxAwOKZ1b8m",
+          "anchor": "v-1C_xP-UsrXQpaqRIpkJ-VhVxAwOKZ1b8m",
+          "href": "s19.html#v-1C_xP-UsrXQpaqRIpkJ-VhVxAwOKZ1b8m"
+        },
+        {
+          "number": 2,
+          "title": "Linux 2 - sudo nano clear",
+          "id": "1CWjLEcjigFBa0OXLBfMeF2LwzhLX5yhv",
+          "anchor": "v-1CWjLEcjigFBa0OXLBfMeF2LwzhLX5yhv",
+          "href": "s19.html#v-1CWjLEcjigFBa0OXLBfMeF2LwzhLX5yhv"
+        },
+        {
+          "number": 3,
+          "title": "Linux 3 - ifconfig nslookup host",
+          "id": "1BrkM5TvSL_rRKEsrGSz0WW3yWpn6Hb0U",
+          "anchor": "v-1BrkM5TvSL_rRKEsrGSz0WW3yWpn6Hb0U",
+          "href": "s19.html#v-1BrkM5TvSL_rRKEsrGSz0WW3yWpn6Hb0U"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Where To Go From Here",
+      "page": "s20.html",
+      "videos": [
+        {
+          "number": 1,
+          "title": "Thank You",
+          "id": "18rXvLc_9i-w_qmpBfDLoYoJ57JB_8gyj",
+          "anchor": "v-18rXvLc_9i-w_qmpBfDLoYoJ57JB_8gyj",
+          "href": "s20.html#v-18rXvLc_9i-w_qmpBfDLoYoJ57JB_8gyj"
+        }
+      ]
+    }
+  ]
+}

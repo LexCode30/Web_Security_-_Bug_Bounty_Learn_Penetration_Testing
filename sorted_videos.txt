@@ -1,0 +1,128 @@
+# Web Security & Bug Bounty Learn Penetration Testing
+
+1. Introduction To Bug Bounty  [s1.html]
+    001. Course Outline  ->  https://drive.google.com/file/d/1Cg35sjE0uJZw92Od8125aFhhM2VS12be/preview
+    002. Join Our Online Classroom  ->  https://drive.google.com/file/d/1E2fAZtaeQKLkzDdPeXbOh6mP2JQrWcm2/preview
+    003. What is Penetration Testing  ->  https://drive.google.com/file/d/1EAR2veCJuUbiLk6_kS5SuPyrt3-6_2kG/preview
+    004. What is Bug Bounty  ->  https://drive.google.com/file/d/1Co6dr59siGZIFkW_qqZd4j9TO3IkL6fn/preview
+    005. ZTM Resources  ->  https://drive.google.com/file/d/1EIqDe3YCAKEw5nRGLysi5WZ05ir1N1d0/preview
+
+2. Our Virtual Lab Setup  [s2.html]
+    001. Virtual Box Kali Linux Download  ->  https://drive.google.com/file/d/1JC3xFTzS1MyWpKQ2mFdD1eF3KQnQzTsr/preview
+    002. Important - New Kali Linux Categories  ->  https://drive.google.com/file/d/1I-oko4-2p4rUzMz0_nR558GSD814xX84/preview
+    003. Kali Linux Installation  ->  https://drive.google.com/file/d/1J3v_1YW_mgl9dhHtzdDguKcdSYQji8GT/preview
+    004. OWASPBWA Installation  ->  https://drive.google.com/file/d/1J0lNHnz5rM66EZIM8pp6nCXcJU6F_HZ8/preview
+    005. Creating TryHackMe Account  ->  https://drive.google.com/file/d/1Hk7ANmCFPthQ7-E8kxxtIdJIUA5XrtIc/preview
+    006. 2 Paths  ->  https://drive.google.com/file/d/1J2PsThMViSQxwv9cJDka4GOt15JBgndI/preview
+
+3. Website Enumeration & Information Gathering  [s3.html]
+    001. Website Enumeration - Theory  ->  https://drive.google.com/file/d/1JO-5DUyNYl3dZMRZjHjFCWw4VlksN8aM/preview
+    002. Google Dorks  ->  https://drive.google.com/file/d/1KbmGWkWD_T4gF_KZLD1TryIrGp4oUi-U/preview
+    003. Ping Host Nslookup  ->  https://drive.google.com/file/d/1K8yJUAqZii0bvUrHg3lGdEfAxnIyVRXU/preview
+    004. Whatweb  ->  https://drive.google.com/file/d/1JUndnDxTd2zlft11YdQZ85uK3J-Ia3uq/preview
+    005. Dirb  ->  https://drive.google.com/file/d/1JcW7WELE2TkNJ62_R0FS-b8HYc9tXPW1/preview
+    006. Nmap  ->  https://drive.google.com/file/d/1KTfPGHMctOy5Vkc3SFTU7era1x2ld2K1/preview
+    007. Nikto  ->  https://drive.google.com/file/d/1JPF0sNcP5wPp9u75b8-NUnuAr5Lz91I-/preview
+
+4. Introduction To Burpsuite  [s4.html]
+    001. Burpsuite Configuration  ->  https://drive.google.com/file/d/12XQT-vTnQ_31r5uDwiX3uziVKBfUb-Y1/preview
+    002. Burpsuite Intercept  ->  https://drive.google.com/file/d/11eUcaPoFpMIopx0p91DAVkPQMyAIlISk/preview
+    003. Burpsuite Repeater  ->  https://drive.google.com/file/d/11hJYFVFolPFpIbyIpNVtkcyUhUESJ0r7/preview
+    004. Burpsuite Intruder  ->  https://drive.google.com/file/d/13Aj_2AvvhfAN1n0k482AByuIL_hDI5o3/preview
+
+5. HTML Injection  [s5.html]
+    001. HTML Injection - Theory  ->  https://drive.google.com/file/d/10De0UMl5rUMSGPJH-nI0nfQ_wUg3nlr2/preview
+    002. HTML Injection 1 on TryHackMe  ->  https://drive.google.com/file/d/102iGmksau1vVy7TOm_QVJi4jyFDIkBCS/preview
+    003. HTML Injection 2 - Injecting User-Agent Header  ->  https://drive.google.com/file/d/105b7XA6MLNxRHMThTdLNsr9EJdeKb8t0/preview
+    004. Injecting Cookie Field and Redirecting The Page  ->  https://drive.google.com/file/d/1-NoIddC1c9CZwfXNXoTEExKefBJ9bMbt/preview
+    005. Advance Example of HTML Injection  ->  https://drive.google.com/file/d/108ZhvMEYpJNyzvoqMXVaUcqfFxJY4Z2j/preview
+
+6. Command InjectionExecution  [s6.html]
+    001. Command Injection Theory  ->  https://drive.google.com/file/d/14Nlzk-BVzzdLBzBrFPKrTL2uONK8DaHY/preview
+    002. Command Injection On TryHackMe and Blind Command Injection  ->  https://drive.google.com/file/d/14WMvO2HFbEwgmuA-74cTfYhBrLGoum-i/preview
+    003. Solving Challenges With Command Injection  ->  https://drive.google.com/file/d/174uf5Ut3fvJy7ODdJ_8u8gnFKkTDxgOD/preview
+    004. Running PHP Reverse Shell With Command Execution Vulnerability  ->  https://drive.google.com/file/d/16KSlsmHMFi_ScCMLb2SjdsgjVVaRNAV5/preview
+    005. Bypassing Input Filter And Executing Command  ->  https://drive.google.com/file/d/1779dablvM0VWDXy1Jn_oAGkeIPpfbD4P/preview
+
+7. Broken Authentication  [s7.html]
+    001. Broken Authentication Theory  ->  https://drive.google.com/file/d/1GIFsLd8JCNuwGyDmtJvm7k-x3h0vrfFw/preview
+    002. Broken Authentication On TryHackMe  ->  https://drive.google.com/file/d/1GU-zp1jx2a0Vk8mQZJubKuK7wkw_DI4K/preview
+    003. Broken Authentication Via Cookie  ->  https://drive.google.com/file/d/1FMI_qXiozoz--aU_nb8I5ArqZwI7Mw9m/preview
+    004. Basic Authorization in HTTP Request  ->  https://drive.google.com/file/d/1GN2WQDAfaFSnwFUo5tmUJxnRFAVdbx1d/preview
+    005. Forgot Password Challenge  ->  https://drive.google.com/file/d/1GcDfkq_Me0HQOaaFwQAecQ4CxLBcwnfn/preview
+    006. Session Fixation Challenge  ->  https://drive.google.com/file/d/1GLK3roSkmJcJiDJDW7hS8u4cR5RXJgce/preview
+
+8. Bruteforce Attacks  [s8.html]
+    001. Cluster Bomb Bruteforce  ->  https://drive.google.com/file/d/17GYFi7zSpEYC0F_-NnvxE8xuKybHZvZm/preview
+    002. Hydra Bwapp Form Bruteforce  ->  https://drive.google.com/file/d/17srvrNrE25E9PxskQ7Q-CZhag0BDAKtu/preview
+    003. Hydra Post Request Form Bruteforce  ->  https://drive.google.com/file/d/17rag30khU3XmLbDADYl6vUPLzLtgHHgA/preview
+    004. Extra - Hydra SSH Attack  ->  https://drive.google.com/file/d/17tbt-rWgogAyM7EhUChzMGJbgTo7lwzm/preview
+
+9. Sensitive Data Exposure  [s9.html]
+    001. Sensitive Data Exposure Example  ->  https://drive.google.com/file/d/13MfK6oNtdXMP6P1vH9ugEQrir-cKRUaH/preview
+
+10. Broken Access Control  [s10.html]
+    001. Broken Access Control - Theory  ->  https://drive.google.com/file/d/1FCH37KhrT_zUsLP1pJkj_xqnhMtZZpYe/preview
+    002. Accessing passwd With BAC  ->  https://drive.google.com/file/d/1FK8RBJu1tlfWGh_AmYh7aDNkr-V0FHsf/preview
+    003. Ticket Price IDOR  ->  https://drive.google.com/file/d/1EW__wMWkKlYhM7Kuca1uSnvUfnqgNv6m/preview
+
+11. Security Misconfiguration  [s11.html]
+    001. Security Misconfiguration - Default App Credentials  ->  https://drive.google.com/file/d/18HOz5FGlzXk_j64qaQov_oxTmcUptJnE/preview
+    002. Exercise Imposter Syndrome  ->  https://drive.google.com/file/d/17wqtHKVOImppQCiCF1CyCEWqn_cRvkmE/preview
+
+12. Cross Site Scripting - XSS  [s12.html]
+    001. XSS Theory  ->  https://drive.google.com/file/d/14sRXv8R9gRYG3juYjMmN2TpfImB59E-X/preview
+    002. Changing Page Content With XSS  ->  https://drive.google.com/file/d/16CxxO4we4GZ69Roy9etyZyHsTBqFk8XM/preview
+    003. Bypassing Simple Filter  ->  https://drive.google.com/file/d/14x4wexa3UzzVuQna8BXCSihAGFmhCz2e/preview
+    004. Downloading a File With XSS Vulnerability  ->  https://drive.google.com/file/d/16FLXm8zy8qbxTZxA-SRJVwKcn-Fpv7nl/preview
+    005. DOM XSS Password Generator  ->  https://drive.google.com/file/d/16B9HNiEzN3HcGQvZp5SgF2Ku04bvBHrp/preview
+    006. JSON XSS  ->  https://drive.google.com/file/d/14zJ7tb_XkNiATRK0juAY3icyfEbgBGc2/preview
+    007. Old Vulnerable Real Applications  ->  https://drive.google.com/file/d/16A42huf2oJehAC1HQsLnQ1o49IccfJOS/preview
+
+13. SQL Injection  [s13.html]
+    001. SQL Injection Theory  ->  https://drive.google.com/file/d/1HY-EH97A0Lyhd1TYJbeBYZYlQg4fa2e_/preview
+    002. Guide To Exploiting SQL Injection  ->  https://drive.google.com/file/d/1Hc0tB7H6NyW3cZ7Y9qlX0hGhClY8UHPk/preview
+    003. Getting Entire Database  ->  https://drive.google.com/file/d/1H_SDtDo_Kd5yNYFsXnQ2fG55Z0QZaJhp/preview
+    004. Extracting Passwords From Database  ->  https://drive.google.com/file/d/1HaT6CQtfyIG4l7Z-fqLY4vgsuihYO8WW/preview
+    005. Bypassing Filter In SQL Query  ->  https://drive.google.com/file/d/1H_6Acl79ILSeicAXVYauBQfHHMrVatNS/preview
+    006. Blind SQL Injection  ->  https://drive.google.com/file/d/1HZ6j5gCAD9mcHPkLJg9DU72szS6YbAx6/preview
+
+14. XML XPath Injection XXE  [s14.html]
+    001. XPath Injection  ->  https://drive.google.com/file/d/1477IqBV3LGFnq-yQWzypUVBvO2SVGeM0/preview
+    002. XPath Injection 2  ->  https://drive.google.com/file/d/1468NZ8hGjwMNHPDP2pQ9xAfFDT0cKGni/preview
+    003. XXE  ->  https://drive.google.com/file/d/14Ggp8TFz_CEZOH0wTehBXFhYanibtOXb/preview
+
+15. Components With Known Vulnerabilities  [s15.html]
+    001. Components With Known Vulnerabilities Example  ->  https://drive.google.com/file/d/1E0ssjzbPSq_oucrtQmgym8k2u71cAAd-/preview
+
+16. Insufficient Logging And Monitoring  [s16.html]
+    001. Insufficient Logging And Monitoring Example  ->  https://drive.google.com/file/d/19NVYhT9Nq9jfUrTWVMfvdKhK6YusRPJS/preview
+
+17. Monetizing Bug Hunting  [s17.html]
+    001. Whats Next & How To Earn Money By Finding Vulnerabilities  ->  https://drive.google.com/file/d/1ERYhAUhipBGmFfN4xR1pYbE0GMGzlhYv/preview
+
+18. Extra - Web Developer Fundamentals  [s18.html]
+    001. Browsing the Web  ->  https://drive.google.com/file/d/19_8QBbGm9p12JiGk1eaysgJY5AoEe-wK/preview
+    002. Breaking Google  ->  https://drive.google.com/file/d/1BcyEQw1townKDDsM97nFqdSybHfFnfuK/preview
+    003. The Internet Backbone  ->  https://drive.google.com/file/d/19P7v50tGjkd1XC4xF_CslgN4cnf7XPga/preview
+    004. Traceroute  ->  https://drive.google.com/file/d/1ATJ-j03CNYbjC7rdBN_8kcZybC4iAqlE/preview
+    005. HTML CSS Javascript  ->  https://drive.google.com/file/d/19aQMvzOqzpCI96qt_6DJuhOcfF8Enz_x/preview
+    006. Build Your First Website  ->  https://drive.google.com/file/d/1BC5O6GNbuX9-Yd6si9DpAST-1H9flNWq/preview
+    007. HTML Tags  ->  https://drive.google.com/file/d/1B1rf38zVk2FU29CcSnvjni7Zp1i_SIid/preview
+    008. Your First CSS  ->  https://drive.google.com/file/d/1BZIWpphJKuOlwsDO_liYh4qX45lbeo50/preview
+    009. What Is Javascript  ->  https://drive.google.com/file/d/1AX1nLFtgrve_gJs-TIsQ8Fns1S6xjnP2/preview
+    010. Your First Javascript  ->  https://drive.google.com/file/d/1A2152kpfnc9cH2VkzlLhVU6vjK0RR1KH/preview
+    011. Javascript On Our Webpage  ->  https://drive.google.com/file/d/19YP6jDokWCOkVOKjtvEpIgg3IvEklV0T/preview
+    012. HTTPHTTPS  ->  https://drive.google.com/file/d/19mH417SSFdjJfOJqxaoiS_-MS24uVKKB/preview
+    013. Introduction To Databases  ->  https://drive.google.com/file/d/19emDT6r5N5XdnAAP9z8BsMZ2W2d-PIoP/preview
+    014. SQL Create Table  ->  https://drive.google.com/file/d/1AiwzXMXICE206QFojoAxkob5CkVOunIO/preview
+    015. SQL Insert Into + Select  ->  https://drive.google.com/file/d/1BNdDXAYkzfVPbMWK1uZNdromVg7g7gQz/preview
+    016. What is PHP  ->  https://drive.google.com/file/d/1A4QXefVvoqHnmYPvJLUMfUwR9VENIqXu/preview
+
+19. Extra - Linux Terminal  [s19.html]
+    001. Linux 1 - ls cd pwd touch  ->  https://drive.google.com/file/d/1C_xP-UsrXQpaqRIpkJ-VhVxAwOKZ1b8m/preview
+    002. Linux 2 - sudo nano clear  ->  https://drive.google.com/file/d/1CWjLEcjigFBa0OXLBfMeF2LwzhLX5yhv/preview
+    003. Linux 3 - ifconfig nslookup host  ->  https://drive.google.com/file/d/1BrkM5TvSL_rRKEsrGSz0WW3yWpn6Hb0U/preview
+
+20. Where To Go From Here  [s20.html]
+    001. Thank You  ->  https://drive.google.com/file/d/18rXvLc_9i-w_qmpBfDLoYoJ57JB_8gyj/preview

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://LexCode30.github.io/Web_Security_-_Bug_Bounty_Learn_Penetration_Testing/sitemap.xml
